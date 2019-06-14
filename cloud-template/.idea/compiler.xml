@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="template-admin" />
+        <module name="template-auth" />
+        <module name="template-boot-admin" />
+        <module name="template-config" />
+        <module name="template-eureka" />
+        <module name="template-zipkin" />
+        <module name="template-zuul" />
+        <module name="templateauth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-template" target="1.8" />
+      <module name="template-admin" target="1.8" />
+      <module name="template-auth" target="1.8" />
+      <module name="template-boot-admin" target="1.8" />
+      <module name="template-config" target="1.8" />
+      <module name="template-eureka" target="1.8" />
+      <module name="template-zipkin" target="1.8" />
+      <module name="template-zuul" target="1.8" />
+      <module name="templateauth" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
